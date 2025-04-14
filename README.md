@@ -1,1 +1,1 @@
-https://github.com/VelvetSergei/ono-tebe-nado-fd#
+https://github.com/VelvetSergei/ono-tebe-nado-fd
