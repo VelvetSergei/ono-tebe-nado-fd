@@ -1,1 +1,73 @@
-/* место для вашего кода */
+/* стили для Header */
+.header {
+  display: grid;
+  grid-template-columns: 1fr min-content 1fr;
+  align-items: center;
+  padding: 92px 50px 96px;
+  background-color: aqua;
+  
+}
+
+.header__menu {
+
+}
+
+.header__links-list {
+  display: flex;
+  gap: 32px;
+
+}
+
+.header__links-list-item {
+  list-style: circle;
+  font-size: 18px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+
+}
+
+.header__links-list-item_no-bullit {
+  list-style: none;
+  }
+
+  .header__links-list-item_no-bullit a {
+    text-decoration: none;
+  }
+
+.header__link {
+
+}
+
+.header__link_active {
+
+}
+
+.header__logo {
+  display: block;
+  width: 148px;
+  height: 105px;
+}
+
+.header__logo-image{
+  width: min-content
+}
+
+
+.header__address {
+  min-width: 240px;
+  justify-self: end;
+  font-style: normal;
+  text-underline-position: under;
+  font-size: 18px;
+  line-height: 24.5px;
+  letter-spacing: 0%;
+
+}
+
+/* стили для Cover */
+
+.cover {
+  position: relative;
+}
