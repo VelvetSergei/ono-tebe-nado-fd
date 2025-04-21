@@ -42,12 +42,13 @@
 }
 
 .header__logo {
+  display: block;
   width: 148px;
   height: 105px;
 }
 
 .header__logo-image{
-  width: min-content;
+
 }
 
 .address {
@@ -150,6 +151,7 @@ text-transform: uppercase;
 
 }
 
+
 /* стили для секции с карточками */
 
 .lots{
@@ -181,7 +183,6 @@ text-transform: uppercase;
 }
 
 .card {
-  padding: 48px 40px;
   position: relative;
   z-index: -1;
   display: flex;
@@ -189,6 +190,7 @@ text-transform: uppercase;
   justify-content: space-between;
   width: 334px;
   min-height: 596px;
+  padding: 48px 40px;
   color: #ffffff;
 
 }
@@ -218,8 +220,8 @@ text-transform: uppercase;
   font-weight: 700;
   font-size: 22px;
   line-height: 1.2;
-  text-transform: uppercase;
   text-decoration: underline;
+  text-transform: uppercase;
 }
 
 .card__text {
@@ -229,45 +231,47 @@ text-transform: uppercase;
 
 .lots__look-more-link {
   display: block;
+  margin-top: 30px;
+  margin-left: 40px;
   font-size: 20px;
   text-decoration: underline;
   text-underline-position: under;
-  margin-top: 30px;
-  margin-left: 40px;
 
 }
 
 /* стили для секции About */
 
 .about {
-  padding-left: 24px;
-  padding-right: 24px;
   display: grid;
   grid-template-columns: 334px auto;
   column-gap: 25px;
+  padding-right: 24px;
+  padding-left: 24px;
 
 
 }
 
 .about__column-logo{
-  padding-top: 35px;
   justify-self: center;
+  padding-top: 35px;
 
 }
 
 .about__column-text {
   padding-top: 133px;
+
+
 }
 
 .about__logo {
 
   display: flex;
-  align-items: center;
   justify-content: center;
+  align-items: center;
   width: 240px;
   height: 240px;
-  background-color: black;
   border-radius: 120px;
+  background-color: black;
 }
 
 .about__logo-image {
@@ -294,12 +298,12 @@ line-height: 24px;
 /* стили для секции Футера */
 
 .footer {
-  min-height: 180px;
-  margin-top: 180px;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  margin-left: 50px;
+  min-height: 180px;
+  margin-top: 180px;
   margin-right: 50px;
+  margin-left: 50px;
 }
 
 .footer__menu {
@@ -326,8 +330,8 @@ text-align: center;
 }
 
 .footer__social-list {
-justify-self: end;
 display: flex;
+justify-self: end;
 gap: 48px;
 list-style: none;
 }
